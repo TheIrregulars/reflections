@@ -1,0 +1,25 @@
+Q: 	What happens when you initialize a repository? Why do you need to do it?
+
+Initializing a repo connects files from your remote computer to the server, GitHub. A repository is a hub where all your code can be stored, snapshot at important intervals, and maintained to insure efficiency and optimum shareability. 
+
+Q:	How is the staging area different from the working area and the repo? What value do you think it offers?
+
+It seems like the staging area acts as a middleman between the working area and repo. The value in this extra step is control, more control for the user to pick which files to group together, logically, and commit as a pair.
+
+Q:	How can you use staging area to make sure you have one commit per logical change?
+
+By adding one file to the staging you can commit that one file alone.
+
+Q:	What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+If I wanted to create a tangent branch to experiment with other possible approaches to a code, if I made a crucial logical commit and wanted to tag that one as important
+
+Q:	How do the diagrams help you visualize the branch structure?
+
+It shows the linear logical path a branch will run if commits are continued on said branch, but can also help viualize a branch break off or a detached HEAD without much confusion. You sort of always know where you are in git thanks to the diagram.
+
+Q:	What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+When two branches are merged the previous parents all the way up to the children being merged are sindicated and organized in a tangible way for the coder. It's representation in the diagram allows the complicated move to be understood by a beginner.
+
+
